@@ -1,4 +1,4 @@
-implementation base on the http://automationpractice.com/index.php webpage.
+Automated the webpage "http://automationpractice.com/index.php"
 
 **Softwares installed**
 Browsers: chrome, firefox
