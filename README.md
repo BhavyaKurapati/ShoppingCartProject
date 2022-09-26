@@ -5,6 +5,7 @@ Browsers: chrome, firefox
 selenium==4.4.3
 pytest==7.1.3
 webdriver-manager==3.8.3
+pytest--html==3.1.1
 
 **Process to be followed**
 
@@ -15,5 +16,6 @@ webdriver-manager==3.8.3
 **Running tests**
 
 Enter tests folder and use pytest command to run the tests(tests are categorized as positive and negative)
-Ex: Use following command to run and generate html reports
-pytest -v Test_Login.py --html=Test_Login.html
+Use following python command to run and generate html reports
+python -m pytest -v Test_Login.py --html Test_Login.html
+
